@@ -1,0 +1,90 @@
+@font-face 
+{
+    font-family: 'Orange Blossom';
+    src: url('https://www.dafont.com/es/orange-blossom.font.ttf');
+}
+
+.information
+{
+    &__title
+    {
+        font-family: 'Orange Blossom';
+        margin-top: 5rem;
+        margin-left: 36rem;
+        margin-bottom: 5rem;
+    }
+    &__academic
+    {
+        margin-bottom: 5rem;
+        text-align: center;
+        &--positioninfo
+        {
+            margin: 0.5rem;
+        }
+    }
+    &__profile
+    {
+        text-align: center;
+        justify-content: center;
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+    &__imghabilities
+    {
+        &__position
+        {
+            justify-content: center;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        &__size
+        {
+            height: 80px;
+            width: 80px;
+            margin-left: rem;
+            margin-right: 2rem;
+            &:hover
+            {
+                animation: bounce;
+                animation-duration: 2s;
+            }
+        }
+    }
+    &__iconcontact
+    {
+        &__position
+        {
+            text-align: center;
+            display: flex;
+            margin-left: 30rem;
+        }
+        &__size
+        {
+            width: 20px;
+            height: 20px;
+            &--text
+            {
+                font-size: medium;
+                margin-right: 1rem;
+                margin-left: 1rem;
+            }
+            &--logos
+            {
+                margin-left: 3rem;
+                margin-top: 3rem;
+                text-align: center;
+                justify-content: center;
+                width: 50px;
+                height: 50px;
+            }
+            &:hover
+            {
+                animation: bounce;
+                animation-duration: 2s;
+            }
+        }
+    }
+}
+
+
+

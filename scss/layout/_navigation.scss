@@ -1,0 +1,34 @@
+.nav
+{
+    &--positionnav
+    {
+        margin: 25px;
+    }
+    &--order
+    {
+        display: flex;
+        align-items: flex-end;
+    }
+    &__list
+    {
+        list-style: none;
+        margin-left: 60rem;
+    }
+    &__item
+    {
+        display: inline-block;
+        margin: 1rem;
+        &:hover
+        {
+            animation: rubberBand;
+            animation-duration: 2s;
+        }
+    }
+    &__link
+    {
+        color: white;
+        text-decoration: none;
+    }
+
+
+}

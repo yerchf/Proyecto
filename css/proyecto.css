@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("C:/Users/Usuario/Desktop/Multimedios/Proyectoindividual/Proyecto/img/1.jpg");
+  font-family: serif;
+  font-size: 14px;
+  color: white;
+}
+
+@font-face {
+  font-family: 'Orange Blossom';
+  src: url("https://www.dafont.com/es/orange-blossom.font.ttf");
+}
+
+.information__title {
+  font-family: 'Orange Blossom';
+  margin-top: 5rem;
+  margin-left: 36rem;
+  margin-bottom: 5rem;
+}
+
+.information__academic {
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+.information__academic--positioninfo {
+  margin: 0.5rem;
+}
+
+.information__profile {
+  text-align: center;
+  justify-content: center;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+.information__imghabilities__position {
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.information__imghabilities__size {
+  height: 80px;
+  width: 80px;
+  margin-left: rem;
+  margin-right: 2rem;
+}
+
+.information__imghabilities__size:hover {
+  animation: bounce;
+  animation-duration: 2s;
+}
+
+.information__iconcontact__position {
+  text-align: center;
+  display: flex;
+  margin-left: 30rem;
+}
+
+.information__iconcontact__size {
+  width: 20px;
+  height: 20px;
+}
+
+.information__iconcontact__size--text {
+  font-size: medium;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.information__iconcontact__size--logos {
+  margin-left: 3rem;
+  margin-top: 3rem;
+  text-align: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+}
+
+.information__iconcontact__size:hover {
+  animation: bounce;
+  animation-duration: 2s;
+}
+
+header {
+  align-items: flex-end;
+}
+
+.nav--positionnav {
+  margin: 25px;
+}
+
+.nav--order {
+  display: flex;
+  align-items: flex-end;
+}
+
+.nav__list {
+  list-style: none;
+  margin-left: 60rem;
+}
+
+.nav__item {
+  display: inline-block;
+  margin: 1rem;
+}
+
+.nav__item:hover {
+  animation: rubberBand;
+  animation-duration: 2s;
+}
+
+.nav__link {
+  color: white;
+  text-decoration: none;
+}
